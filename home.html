@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>CareConnect</title>
+    <style>
+        header{
+            position: relative;
+            background-color: #fff;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px -20px 0 -20px;
+        } 
+        .header-links{
+            margin: 40px;
+        }
+        body{
+            background-color: #EAEBED;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 20px;
+            height: 1200px;
+        }
+        .main-container-first-section {
+            position: absolute;
+            background-image: linear-gradient(90deg, rgba(41, 57, 72, .9), hsla(0, 0%, 100%, 0) 60%),
+            url('CareConnect.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: scroll;
+            max-width: 100%;
+            height: 300px;
+            margin: 25px 0 25px -25px;
+            padding: 60px;
+            filter: brightness(0.8) blur(0.4px);    
+        }
+        .introduction-statement{
+            text-align: justify;
+            width: 50%;
+            font-size: 28px;
+            padding-top: 0px;
+            color: #ffffff;
+        }
+        .careconnect-logo{
+              max-width: 255px;
+              height: 75px;
+              padding: 15px;
+        }
+        .main-points-icon{
+            display: block;
+            margin: 0 auto;
+            padding-top: 15px;
+            width: 50px;
+            height:50px;
+        }
+        .main-points-text{
+            margin-top: 20px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+        }
+        .main-container-points{
+            color: white;
+            font-size: 20px;
+        }
+        .main-points{
+            background-color: #80225F;
+            width: 70%;
+            height: 35%;
+            margin-top: 30px;
+            transition: ease-in-out all 200ms;
+        }
+        .main-points:hover{
+            background-color: #55163f;
+        }
+        a.main-link{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            margin: 40px;
+        }
+        a.header-link{
+            text-align: right;
+            font-size: 25px;
+            color: #373A36;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="careconnect-high-resolution-logo-transparent.png" alt="" class="careconnect-logo">
+        <span class="header-links">
+            <a href="https://www.who.int/health-topics/medicines" class="header-link">
+                WHO
+            </a>
+        </span>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="main-container-first-section">
+                <div>
+                    <p class="introduction-statement">
+                        At CareConnect, our mission is to help you understand the importance of taking your prescriptions as directed and the impact it has on your health. Explore resources on how to stay consistent with your treatment and take control of your wellness journey with confidence.
+                    </p>
+                </div>
+                <div class="main-container-points">
+                    <a href="" class="main-link" target="_blank">
+                        <div class="main-points">
+                                <div >
+                                    <img src="careconnect-icon-1.png" alt="" class="main-points-icon">
+                                </div>
+                                <div class="main-points-text">
+                                        Importance of medication
+                                </div>
+                        </div>
+                    </a>
+                    <a href="" class="main-link" target="_blank">
+                        <div class="main-points">
+                                <div >
+                                    <img src="careconnect-icon-3.png" alt="" class="main-points-icon">
+                                </div>
+                                <div class="main-points-text">
+                                        Implications of medication 
+                                </div>
+                        </div>
+                    </a>
+                    <a href="" class="main-link" target="_blank">
+                        <div class="main-points">
+                                <div>
+                                    <img src="careconnect-icon-2.png" alt="" class="main-points-icon">
+                                </div>
+                                <div class="main-points-text">
+                                        How to adhere to treatment
+                                </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
